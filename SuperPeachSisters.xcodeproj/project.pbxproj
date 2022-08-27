@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A817A83128BAA2F20094D5AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A817A83028BAA2F20094D5AA /* main.cpp */; };
+		A817A83928BAA31C0094D5AA /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A817A83728BAA31C0094D5AA /* Actor.cpp */; };
+		A817A83C28BAA3720094D5AA /* StudentWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A817A83A28BAA3720094D5AA /* StudentWorld.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		A817A82D28BAA2F20094D5AA /* SuperPeachSisters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SuperPeachSisters; sourceTree = BUILT_PRODUCTS_DIR; };
-		A817A83028BAA2F20094D5AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A817A83728BAA31C0094D5AA /* Actor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
+		A817A83828BAA31C0094D5AA /* Actor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		A817A83A28BAA3720094D5AA /* StudentWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StudentWorld.cpp; sourceTree = "<group>"; };
+		A817A83B28BAA3720094D5AA /* StudentWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentWorld.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		A817A82F28BAA2F20094D5AA /* SuperPeachSisters */ = {
 			isa = PBXGroup;
 			children = (
-				A817A83028BAA2F20094D5AA /* main.cpp */,
+				A817A83B28BAA3720094D5AA /* StudentWorld.h */,
+				A817A83A28BAA3720094D5AA /* StudentWorld.cpp */,
+				A817A83728BAA31C0094D5AA /* Actor.cpp */,
+				A817A83828BAA31C0094D5AA /* Actor.h */,
 			);
 			path = SuperPeachSisters;
 			sourceTree = "<group>";
@@ -119,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A817A83128BAA2F20094D5AA /* main.cpp in Sources */,
+				A817A83C28BAA3720094D5AA /* StudentWorld.cpp in Sources */,
+				A817A83928BAA31C0094D5AA /* Actor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
